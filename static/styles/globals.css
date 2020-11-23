@@ -1,0 +1,298 @@
+:root, [data-theme="light"] {
+  /* Common styles*/
+  --font-main: 'Roboto', sans-serif;
+
+  --box-shadow-main: 0px 2px 10px rgba(22, 20, 45, 0.3);
+  --border-bottom-main: 1px solid #ebedf2;
+
+  /* Main colors [Important! Do not change main colors for theme] */
+  --color-primary: #002d85;
+  --color-white: #FFFFFF;
+  --color-black: #1C1C36;
+  --color-black-dark: #12152D;
+  --color-black-darker: #0C0E21;
+  --color-red: #BE1E2D;
+  --color-light-red: #F55E6E;
+  --color-red-2: rgba(251, 50, 50, 0.2);
+  --color-blue: #5F39ED;
+  --color-dark-blue: #656FFF;
+  --color-yellow: #EAB919;
+  --color-blue-12: rgba(96, 57, 237, 0.12);
+  --color-blue-2: rgba(96, 57, 237, 0.2);
+  --color-green: #03AE39;
+  --color-green-dark: #0d9f83;
+  --color-grey: #6E6A94;
+  --color-grey-light: #9491B4;
+  --color-grey-lighter: #EEEBF6;
+  --color-grey-hover: #D5D3E7;
+  --color-grey-bright: #F7F7F9;
+  --color-grey-bg: #D5D3E7;
+  --color-blue-light: #CCBEFF;
+
+  /* Typography colors */
+  --color-title-main: #002d85;
+  --color-title-sidebar: #FFFFFF;
+  --color-title-primary: #002d85;
+  --color-title-secondary: #FFFFFF;
+  --color-text-main: #6E6A94;
+  --color-text-dark: rgba(0, 0, 0, .87);
+  --color-text-primary: #9491B4;
+  --color-text-admin: #2E2E57;
+  --color-text-secondary: #737180;
+  --color-text-highlight: #1C1C36;
+  --color-text-sidebar: #002d85;
+
+  /* Background colors */
+  --color-bg-main: #F7F7F9;
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #002d85;
+  --color-bg-table: #D5D3E7;
+  --color-bg-table-child: #6E6A94;
+  --color-bg-input: #FFFFFF;
+  --color-bg-sidebar: #12152D;
+  --color-bg-backdrop: #D5D3E7CC;
+
+  /* Border colors */
+  --color-border-main: #EEEBF6;
+  --color-border-collapse-btn: #2E2E57;
+  --color-border-hover: #D5D3E7;
+
+  /* Header colors */
+  --color-notify-toggle: #EEEBF6;
+  --color-theme-toggle: #2E2C3E;
+
+  /* Tooltip colors */
+  --color-bg-tooltip: #1C1C36;
+
+  /* Header colors */
+  --color-scroll: #D5D3E7;
+  --color-scroll-back: rgba(213, 211, 231, 0.2);
+
+  /* Card list colors */
+  --gradient-bg-main: linear-gradient(90deg, #F7F7F9 0%, rgba(247, 247, 249, 0.0001) 100%);
+
+  /* Table colors */
+  --color-table-main: rgba(18, 21, 45, 0.8);
+  --color-table-secondary: rgba(22, 20, 45, 0.6);
+  --gradient-order-choice-bg: linear-gradient(90deg, #E8EAF6, 30%, rgba(232, 234, 246, 0.0001) 100%);
+  /* Account setting colors */
+  --color-label: #1C1C36;
+}
+
+[data-theme="dark"] {
+  /* Main colors [Important! Do not change main colors for theme] */
+  --color-white: #FFFFFF;
+  --color-black: #1C1C36;
+  --color-black-dark: #12152D;
+  --color-black-darker: #0C0E21;
+  --color-red: rgb(251, 97, 50);
+  --color-blue: rgb(57, 105, 237);
+  --color-yellow: rgb(231, 234, 25);
+  --color-green: rgb(3, 174, 3);
+  --color-green-dark: #0d9f4f;
+  --color-grey: #6E6A94;
+  --color-grey-light: #9491B4;
+  --color-grey-lighter: #EEEBF6;
+  --color-grey-hover: #D5D3E7;
+  --color-grey-bright: #F7F7F9;
+  --color-grey-bg: #D5D3E7;
+
+  /* Typography colors */
+  --color-title-main: #FFFFFF;
+  --color-title-primary: #d2d2d8;
+  --color-text-main: #6E6A94;
+  --color-text-dark: #d2d2d8;
+  --color-text-primary: #9491B4;
+  --color-text-secondary: #737180;
+  --color-text-admin: #2E2E57;
+  --color-text-highlight: #FFFFFF;
+
+  /* Background colors */
+  --color-bg-main: #12152D;
+  --color-bg-primary: #1C1C36;
+  --color-bg-secondary: #2E2E57;
+  --color-bg-input: transparent;
+  --color-bg-sidebar: #1C1C36;
+  --color-bg-backdrop: #2E2E57CC;
+
+  /* Border colors */
+  --color-border-main: #2E2E57;
+  --color-border-collapse-btn: #2E2E57;
+  --color-border-hover: #383A66;  
+
+  /* Header colors */
+  --color-notify-toggle: #1C1C36;
+  --color-theme-toggle: #2E2E57;
+
+  /* Tooltip colors */
+  --color-bg-tooltip: #2E2E57;
+
+  /* Header colors */
+  --color-scroll: #2E2E57;
+  --color-scroll-back: rgba(46, 46, 87, 0.2);
+
+  /* Card list colors */
+  --gradient-bg-main: linear-gradient(90deg, #212140 0%, rgba(33, 33, 64, 0.0001) 99.8%);
+
+  /* My Balance colors */
+  --color-coin: rgba(255, 255, 255, 0.8);
+  --color-balance: #FFFFFF;
+
+  /* Table colors */
+  --color-table-main: rgba(255, 255, 255, 0.8);
+  --color-table-secondary: rgba(255, 255, 255, 0.6);
+
+  /* Account setting colors */
+  --color-label: #F7F7F9;
+}
+
+body {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--color-title-main);
+}
+
+h2 {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--color-title-main);
+}
+
+h3 {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--color-title-main);
+}
+
+h4 {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-title-main);
+}
+
+h5 {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-title-main);
+}
+
+h6 {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-title-main);
+}
+
+p {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--color-text-main);
+}
+
+.p-xsmall {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  color: var(--color-text-main);
+}
+
+.p-small {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-text-main);
+}
+
+.p-medium {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--color-text-main);
+}
+
+.p-large {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-text-main);
+}
+
+i[class^="icon-"] {
+  color: var(--color-title-main);
+}
+
+a {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
+
+.active {
+  color: var(--color-title-primary);
+  position: relative;
+}
+
+.active::after {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  background-color: var(--color-red);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  box-shadow: 0px 2px 4px rgba(251, 50, 50, 0.3);
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: var(--font-main);
+  outline: none;
+}

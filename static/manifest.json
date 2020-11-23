@@ -1,0 +1,8 @@
+{
+  "name": "Email Checking Admin",
+  "short_name": "Email Checking Admin",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#673ab7",
+  "background_color": "#EEE"
+}

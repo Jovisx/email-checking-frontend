@@ -1,0 +1,73 @@
+{
+  "email_check": "Email Checking",
+  "notfound": {
+    "error": "Sorry! The page you’re looking for cannot be found.",
+    "homepage": "Return to Email Checking homepage"
+  },
+  "welcome": {
+    "title": "Welcome",
+    "login": "Sign In",
+    "away": "I'm away",
+    "welcome_title": "Email Checking Front End"
+  },
+  "errors": {
+    "NOT_ADMIN": "You don't have access to Admin Dashboard",
+    "SEND_TO_COLD_FAILED": "Failed to send balance to cold storage",
+    "CREDENTIAL_WRONG": "Invalid email or password.",
+    "AUTHENTICATION_FAILED": "Authentication failed. Please try again.",
+    "CONNECTION_FAILED": "Connection Failed. Please try again.",
+    "SOMETHING_WRONG": "Something went wrong.",
+    "INVALID_ACTION": "The operation was failed. Please try again.",
+    "USERNAME_INVALID": "Invalid username.",
+    "PASSWORD_NOT_STRONG": "Your password must be at least eight characters long, contain an UPPERCASE letter, a lowercase letter, and a number or a symbol.",
+    "MOVE_EMAIL_FAILED": "Moving email into process pool was failed."
+  },
+  "success": {
+    "MOVE_EMAIL_SUCCESS": "Moving email into process pool succeed."
+  },
+  "no_data": {
+    "default": "No data result",
+    "no_emails": "No email",
+    "no_processes": "No email in process pool"
+  },
+  "auth": {
+    "email": "Email address",
+    "password": "Password",
+    "validations": {
+      "enter_email": "Please enter email address.",
+      "enter_valid_email": "Please enter a valid email address",
+      "enter_password": "Please enter password.",
+      "minlen_6": "At least length of 6",
+      "matchlen_6": "Input length should be 6"
+    },
+    "login": {
+      "title": "Sign In",
+      "login_btn": "SIGN IN"
+    }
+  },
+  "email": {
+    "id": "ID",
+    "title": "Emails",
+    "subject": "Subject",
+    "resolvedBy": "Resolved by",
+    "emailLead": "Email lead",
+    "date": "Date",
+    "status": "Status",
+    "search": "Search",
+    "total_email_count": "Total email count",
+    "action": "Action",
+    "detail": "Detail"
+  },
+  "processes": {
+    "title": "Emails in process pool",
+    "emailId": "Email id",
+    "createdAt": "Created date",
+    "startedAt": "Started date",
+    "userId": "User id",
+    "search": "Search",
+    "total_process_count": "Total processing email count"
+  },
+  "pagination": {
+    "items_per_page": "Items per page"
+  }
+}

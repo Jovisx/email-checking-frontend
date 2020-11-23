@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "urnp-admin-frontend",
+      "script": "npm",
+      "args": "run dev"
+    }
+  ]
+}
